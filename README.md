@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Notepad Online with Code Formatter & Comparison
 
-## Getting Started
+This project is an online notepad with integrated code formatting using Prettier and a code comparison feature. It is built using **Next.js** and **Bun** for high performance and efficient development.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Notepad Online**: A simple online text editor that allows users to write and edit notes or code snippets.
+- **Prettier Integration**: Automatically format code snippets with Prettier, ensuring consistent code style.
+- **Code Comparison**: Compare two versions of code to see differences line by line.
+- **Responsive UI**: Optimized for mobile and desktop use.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **Bun**: A fast all-in-one JavaScript runtime for the backend, allowing for high-speed development and execution.
+- **Prettier**: Integrated code formatting tool for maintaining code style consistency.
+- **Monaco Editor**: The same code editor used in VS Code, allowing for syntax highlighting and autocompletion.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/your-username/notepad-online.git
+   cd notepad-online
+   bun install
+   bun run dev
+   ```
